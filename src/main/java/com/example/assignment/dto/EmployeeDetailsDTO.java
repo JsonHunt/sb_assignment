@@ -1,6 +1,9 @@
-package com.example.assignment;
+package com.example.assignment.dto;
 
 import java.util.List;
+
+import com.example.assignment.entity.Employee;
+import com.example.assignment.entity.Salary;
 
 public class EmployeeDetailsDTO {
 

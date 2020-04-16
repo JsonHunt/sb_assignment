@@ -1,4 +1,4 @@
-package com.example.assignment;
+package com.example.assignment.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

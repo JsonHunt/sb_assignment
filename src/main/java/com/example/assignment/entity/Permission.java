@@ -1,8 +1,10 @@
-package com.example.assignment;
+package com.example.assignment.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
+// Had to fix permissions table, all customer ids had an extra 0
 
 @Entity
 @Table(name="permissions")
