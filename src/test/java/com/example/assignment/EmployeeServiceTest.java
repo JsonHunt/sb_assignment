@@ -14,7 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.Bean;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import com.example.assignment.dao.EmployeesRepository;
 import com.example.assignment.dao.SalaryRepository;
@@ -24,7 +24,7 @@ import com.example.assignment.entity.Salary;
 import com.example.assignment.service.EmployeeService;
 import com.example.assignment.service.EmployeeServiceImpl;
 
-@RunWith(SpringJUnit4ClassRunner.class)
+@RunWith(SpringRunner.class)
 public class EmployeeServiceTest {
 
 	@TestConfiguration
